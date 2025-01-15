@@ -64,6 +64,7 @@ namespace Artists_Reviews.Controllers
 
             // for (var email in receiver)
             // {
+            // Console.WriteLine($"Sending email to: {email}");
             //await _emailService.SendEmailAsync(email, subject, message);
             // }
             return CreatedAtAction(nameof(GetById), new { id = reviewModel.Id }, reviewModel.ToReviewDto());
