@@ -9,7 +9,7 @@ namespace Artists_Reviews.Services
         public Task SendEmailAsync(string Email, string subject, string message)
         {
             var mail = "ali.jaber.k.683@gmail.com";
-            var pw = "ALIali2004";
+            var pw = "";
 
             var client = new SmtpClient("smtp.gmail.com", 587)
             {

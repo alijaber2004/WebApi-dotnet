@@ -58,11 +58,14 @@ namespace Artists_Reviews.Controllers
             var reviewModel = reviewDto.ToReviewFromCreate(ArtistId);
             await _reviewRepo.CreateAsync(reviewModel);
 
-            //var receiver = "aj580581@gmail.com";
+            //string[] receiver = {"aj580581@gmail.com", "raji", "michael";
             //var subject = "Test";
             //var message = "review added";
 
-            //await _emailService.SendEmailAsync(receiver, subject, message);
+            // for (var email in receiver)
+            // {
+            //await _emailService.SendEmailAsync(email, subject, message);
+            // }
             return CreatedAtAction(nameof(GetById), new { id = reviewModel.Id }, reviewModel.ToReviewDto());
 
         }

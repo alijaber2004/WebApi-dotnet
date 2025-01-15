@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0cbKPlCW4qk=",
+  "dgSpecHash": "H0FEM0MbxYE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alija\\Desktop\\.Net_learning\\Artists&Reviews\\Artists&Reviews\\Artists&Reviews.csproj",
+  "projectFilePath": "C:\\Users\\alija\\Desktop\\WebApi-dotnet\\Artists&Reviews\\Artists&Reviews.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alija\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\alija\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
