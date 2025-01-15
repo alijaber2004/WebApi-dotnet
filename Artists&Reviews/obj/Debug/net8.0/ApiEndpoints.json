@@ -1,0 +1,175 @@
+[
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ArtistController",
+    "Method": "GetAll",
+    "RelativePath": "api/artist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ArtistController",
+    "Method": "Create",
+    "RelativePath": "api/artist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artistDto",
+        "Type": "Artists_Reviews.Dtos.Artist.CreateArtistDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ArtistController",
+    "Method": "GetById",
+    "RelativePath": "api/artist/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ArtistController",
+    "Method": "Update",
+    "RelativePath": "api/artist/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "Artists_Reviews.Dtos.Artist.UpdateArtistDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ArtistController",
+    "Method": "Delete",
+    "RelativePath": "api/artist/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ArtistController",
+    "Method": "SyncArtists",
+    "RelativePath": "api/artist/sync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ReviewController",
+    "Method": "GetAll",
+    "RelativePath": "api/review",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ReviewController",
+    "Method": "Create",
+    "RelativePath": "api/review/{ArtistId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ArtistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reviewDto",
+        "Type": "Artists_Reviews.Dtos.Review.CreateReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ReviewController",
+    "Method": "GetById",
+    "RelativePath": "api/review/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ReviewController",
+    "Method": "Update",
+    "RelativePath": "api/review/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "Artists_Reviews.Dtos.Review.UpdateReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artists_Reviews.Controllers.ReviewController",
+    "Method": "Delete",
+    "RelativePath": "api/review/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
